@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+/* style page*/
+#page{
+    display: flex;
+    height: 100vh;
+    
+}
+/* style page left*/
+#pageLeft{
+    background-image: url(/halie-west-25xggax4bSA-unsplash.jpg);
+    width: 40vw;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30vh;
+}
+#pageLeft > .sign{
+    background: black;
+    opacity: 0.5;
+    justify-content: center;
+}
+
+.sign > h1{
+    color: whitesmoke;
+    z-index: 900px;
+    font: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+/*style page right*/
+#pageRight{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    background-color: gainsboro;
+    height: auto;
+}
+.pageTop, .pageCenter, .pageBottom{
+    padding-left: 2rem;
+}
+/*top side of the right page*/
+.pageTop{
+    font-size: large;
+    font-weight: 400;
+    font: bold;
+}
+/*top side of the center page*/
+.pageCenter{
+    background-color: white;
+}
+legend{
+    font:bolder;
+    font-weight: 300;
+    font-size: large;
+    padding-bottom: 1rem;
+}
+
+fieldset{
+    border: none;
+    padding-bottom: 1rem;
+}
+.first, .second, .last{
+    display: flex;
+    gap: 5rem;
+    justify-content: left;
+}
+.firstName ,.lastName, .email, .number, .password, .confirmPassword{
+    display: flex;
+    flex-direction: column;
+    font: 200;
+    font-weight: 100;
+}
+
+input{
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+}
+input:active{
+    border-color:1px solid blue;
+}
+input:hover{
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    
+}
+/*top side of the bottom page*/
+.pageBottom{
+    
+}
+
+button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: #596D48;
+}
+.pageBottom > p{
+    padding-top: 1rem;
+}
+.pageBottom > p > a:link, a:visited{
+    text-decoration: none;
+    color: #596D48;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <!--Create the page-->
+    <div id="page">
+        <!--The left side of the page-->
+        <div id="pageLeft">
+            <div class="sign">
+                <h1 class="leftH1">SIGN UP FORM</h1>
+            </div>
+            
+        </div>
+        <!--The right side of the page-->
+        <div id="pageRight">
+            <!--Top part of the left side of the page-->
+            <div class="pageTop">
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up <em>now</em> to get started.
+                <br>
+                <br>You <em>know</em> you want this.</br>
+            </div>
+             <!--Top part of the center side of the page-->
+            <div class="pageCenter">
+                <form action="">
+                    <!--the heading-->
+                    <legend>Let's do this!</legend>
+                    <!--The name input section-->
+                    <fieldset class="first">
+                        <div class="firstName">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName"  name="firstName">
+                        </div>
+                        <div class="lastName">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName"  name="lastName">
+                        </div>
+                    </fieldset>
+                    <!--Email and number input section--> 
+                    <fieldset class="second">
+                        <div class="email">
+                            <label for="Email">Email</label>
+                            <input type="email" name="Email" id="Email" >
+                        </div>
+
+                        <div class="number">
+                            <label for="number">Phone Number</label>
+                            <input type="number" name="number" id="number" >
+                        </div>
+                    </fieldset>
+                    <!--password input section-->
+                    <fieldset class="last"10>
+                        <div class="password">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>    
+
+                        <div class="confirmPassword">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" required>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+             <!--Top part of the bottom side of the page-->
+            <div class="pageBottom">
+                <button type="submit">Create Account</button>
+                <br>
+                <p>Already have an account? <a href="http://">Log in</a></p>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
